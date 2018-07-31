@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    
+   >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<TextView 
+    android:id="@+id/bsb1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+          
+            android:textColor="#008b00"
+    
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="Bootstarp Form\n"
+        />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+
+<TextView 
+ 
+    android:id="@+id/bsb2"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+   android:textAppearance="?android:attr/textAppearanceSmall"  
+ android:textColor="#00008b"
+     android:padding="4dp" 
+      
+        android:text="> Standard rule for  form layout:\n\n
+•Wrap labels and form controls in &lt;div class=&quot; form-group&quot;> (needed for optimum spacing).\n\n
+•Add class .form-control to all textual &lt;input>, &lt; textarea>, and &lt;select> elements.\n\n
+
+"
+
+    />
+
+<TextView
+    android:id="@+id/bsb4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+>code:\n
+"
+    android:textStyle="" />
+
+<TextView 
+ android:background="#fff5ee"
+ android:padding="10dp"
+    android:id="@+id/bsb3"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+     
+        android:text="
+     
+&lt;div class=&quot; container &quot; >\n\n
+  
+  &lt;form action=&quot; /after_login.php&quot; >\n\n
+    &lt;div class=&quot; form-group&quot; >\n\n
+      &lt;label for=&quot; email&quot; >Email:&lt;/label>\n\n
+      &lt;input type=&quot; email&quot;  class=&quot; form-control&quot;  id=&quot; email&quot;  placeholder=&quot; Enter email&quot;  name=&quot; email&quot; >\n\n
+   &lt;/div>\n\n
+    &lt;div class=&quot; form-group&quot; >\n\n
+      &lt;label for=&quot; pwd&quot; >Password:&lt;/label>\n\n
+      &lt;input type=&quot; password&quot;  class=&quot; form-control&quot;  id=&quot; pwd&quot;  placeholder=&quot; Enter password&quot;  name=&quot; pwd&quot; >\n\n
+   &lt;/div>\n\n
+    &lt;div class=&quot; checkbox&quot; >\n\n
+      &lt;label>&lt;input type=&quot; checkbox&quot;  name=&quot; remember&quot; > Remember me&lt;/label>\n\n
+    &lt;/div>\n\n
+    &lt;button type=&quot; submit&quot;  class=&quot; btn btn-primary&quot; >Submit&lt;/button>\n\n
+  &lt;/form>\n
+&lt;/div>\n\n
+"
+   />
+
+<TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/bsform1" />
+</LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

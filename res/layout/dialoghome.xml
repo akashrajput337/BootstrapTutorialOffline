@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/thelp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       android:gravity="center"
+        android:text="you can ask any doubt or queries related to Bootstrap as well as c,c++,core java,php,android,  
+        mail us on our given mail id."
+       
+        android:textStyle="italic"
+        />
+    <Button 
+        android:id="@+id/bhelp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="OK"
+        />
+
+</LinearLayout>

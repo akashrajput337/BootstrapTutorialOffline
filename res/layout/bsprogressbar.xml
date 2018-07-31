@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    
+   >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<TextView 
+    android:id="@+id/bsb1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+          
+            android:textColor="#008b00"
+    
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="Bootstarp Progress Bar\n"
+        />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+<TextView
+    android:id="@+id/bsb6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text=">Basic progress bar:"
+ />
+<!--  <Button 
+        android:id="@+id/buttonrunclick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Run"
+        android:layout_gravity="right"
+      
+       android:background="@drawable/startbutton"
+        
+        />
+        -->
+
+<TextView 
+ 
+    android:id="@+id/bsb2"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text=">To create a default progress bar, add a .progress class to a &lt;div> element:.\n
+"
+
+    />
+
+<TextView
+    android:id="@+id/bsb4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+>code:\n
+"
+    android:textStyle="" />
+<!-- android:background="
+#fff0f5"
+#ffefdb 
+#fff5ee
+#f0f0f0-->
+<TextView 
+ android:background="#fff5ee"
+ android:padding="10dp"
+    android:id="@+id/bsb3"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+     
+        android:text="
+     
+&lt; div class= &quot; container&quot;>\n\n
+  &lt; h4>Basic Progress Bar&lt; /h4>\n\n
+  &lt; div class=&quot;progress&quot; >\n\n
+    &lt; div class=&quot;progress-bar&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;70&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width:70%&quot;>\n\n
+   
+      &lt;span class=&quot;sr-only&quot;>70% Complete &lt;/span> \n\n
+    &lt; /div>\n
+  &lt; /div>\n
+&lt;/div>\n\n"
+   />
+
+<TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/pb1" />
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+   <TextView
+    android:id="@+id/bsb6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text="\n\n>Progress Bar With Label:"
+ />
+
+<TextView 
+ 
+    android:id="@+id/bsb7"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text=">Remove the .sr-only class from the progress bar to show a visible percentage.\n
+"
+
+    />
+<TextView
+    android:id="@+id/bsb8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+> code:\n
+"
+    android:textStyle="" />
+    
+    <TextView 
+ 
+    android:id="@+id/bsb9"
+android:background="#fff5ee"
+ android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+  
+        android:text="
+     &lt; div class= &quot; container&quot;>\n\n
+  &lt; h4>Progress Bar With Label&lt; /h4>\n\n
+  &lt; div class=&quot;progress&quot; >\n\n
+    &lt; div class=&quot;progress-bar&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;70&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width:70%&quot;>70%\n\n
+ 
+   &lt; /div>\n
+  &lt; /div>\n
+&lt;/div>\n\n"
+
+
+   />
+    <TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/pb2" />  
+    
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+   <TextView
+    android:id="@+id/bsp6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text="\n\n>Animated Progress Bar"
+ />
+
+<TextView 
+ 
+    android:id="@+id/bsb7"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text=">Add class .active to animate the progress bar.\n
+"
+
+    />
+<TextView
+    android:id="@+id/bsb8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+> code:\n
+"
+    android:textStyle="" />
+    
+    <TextView 
+ 
+    android:id="@+id/bsb9"
+android:background="#fff5ee"
+ android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+  
+        android:text="
+      &lt; div class= &quot; container&quot;>\n\n
+  &lt; h4> Animated Progress Bar&lt; /h4>\n\n
+  &lt; div class=&quot;progress&quot; >\n\n
+    &lt; div class=&quot;progress-bar progress-bar-warning  progress-bar-striped active&quot; role=&quot;progressbar&quot; aria-valuenow=&quot;45&quot; aria-valuemin=&quot;0&quot; aria-valuemax=&quot;100&quot; style=&quot;width:45%&quot;>45%\n\n
+ 
+   &lt; /div>\n
+  &lt; /div>\n
+&lt;/div>\n\n"
+   />
+    <TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/pb3" />  
+    
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+   <TextView
+    android:id="@+id/bsp6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text="\n\n>Stacked Progress Bars"
+ />
+
+<TextView 
+ 
+    android:id="@+id/bsb7"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text=">Create a stacked progress bar by placing multiple bars into the same &lt;div class=&quot;progress&quot;>.\n
+"
+
+    />
+<TextView
+    android:id="@+id/bsb8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+> code:\n
+"
+    android:textStyle="" />
+    
+    <TextView 
+ 
+    android:id="@+id/bsb9"
+android:background="#fff5ee"
+ android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+  
+        android:text="
+      &lt; div class= &quot; container&quot;>\n\n
+ &lt; h4>Stacked Progress Bars&lt; /h4>\n\n
+   &lt;div class=&quot;progress-bar progress-bar-success&quot; role=&quot;progressbar&quot; style=&quot;width:40%&quot;>\n\n
+      Free Space\n\n
+   &lt;/div>\n\n
+    &lt;div class=&quot;progress-bar progress-bar-warning&quot; role=&quot;progressbar&quot; style=&quot;width:10%&quot;>\n\n
+      Warning\n\n
+    &lt;/div>\n\n
+    &lt;div class=&quot;progress-bar progress-bar-danger&quot; role=&quot;progressbar&quot; style=&quot;width:20%&quot;>\n\n
+      Danger\n\n
+    &lt;/div>\n\n
+  &lt; /div>\n
+&lt;/div>\n\n"
+   />
+    <TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/pb4" />  
+    
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

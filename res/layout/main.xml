@@ -1,0 +1,29 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    
+     android:gravity="center"
+    >
+<!--        
+        android:background="#308014" -->
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:scaleType="fitXY"
+    android:src="@drawable/home1" />
+
+<Button
+    android:id="@+id/startbutton"
+    android:layout_width="187dp"
+    android:layout_height="34dp"
+    android:layout_gravity="bottom|center"
+    android:layout_marginBottom="55dp"
+    android:background="@drawable/startbutton"
+    android:text="Let&apos;s Start"
+    android:textStyle="italic" />
+
+</FrameLayout>

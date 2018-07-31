@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    
+   >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  
+  
+  >
+    
+    
+<TextView 
+    android:id="@+id/bsh1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+          
+            android:textColor="#008b00"
+    
+        android:textAppearance="?android:attr/textAppearanceLarge"
+    
+      
+      
+        android:text="> What is Bootstrap?  "
+        />
+<TextView 
+ 
+    android:id="@+id/bsh2"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+     android:textColor="#00008b"
+      
+      
+        android:text="•Bootstrap is a free front-end framework for faster and easier web development.\n
+•Bootstrap includes HTML and CSS based design templates for typography, forms, buttons, tables, navigation, modals, image carousels and many other, as well as optional JavaScript plugins\n
+•Bootstrap also gives you the ability to easily create responsive designs.\n\n"
+
+    />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/bshome" />
+
+<TextView 
+    android:id="@+id/bsh3"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+    
+        android:textAppearance="?android:attr/textAppearanceLarge"
+    
+        android:text="\n\n>What is Responsive Web Design?
+    "
+    />
+<TextView 
+    android:id="@+id/bsh4"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    android:textColor="#006400"
+      
+      
+        android:text=">''Responsive web design is about creating web sites which automatically adjust themselves to look good on all devices, from small phones to large desktops.''
+
+    "
+    />
+<TextView
+    android:id="@+id/bsb8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="\n\n\n
+> Note:-\n
+&quot; write all the codings of bootstrap components between the &quot; body &quot; given below &quot;
+"
+    android:textStyle="" />
+ 
+    <TextView 
+ 
+    android:id="@+id/bsb9"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+     android:background="#fff5ee"
+ android:padding="10dp"
+        android:text="
+  &lt;!DOCTYPE html>\n
+&lt;html lang=&quot;  en  &quot;>\n
+&lt;head>\n
+  &lt; title>Bootstrap Example &lt;/title>\n\n
+  &lt;meta charset=&quot; utf-8 &quot;>\n\n
+  &lt;meta name=&quot; viewport &quot; content=&quot;width=device-width, initial-scale=1 &quot;>\n\n
+  &lt;link rel=&quot; stylesheet &quot; href= &quot; https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css &quot;>\n\n
+  &lt;script src=&quot; https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js &quot;> &lt;/script>\n\n
+  &lt;script src=&quot; https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js &quot; &lt;/script>\n\n
+&lt;/head>\n
+
+&lt;body>\n
+&lt;div class=&quot; container &quot;>\n
+.\n
+.\n
+.  ---write code here---\n
+.\n
+.\n
+&lt;/div>\n
+&lt;/body>\n
+&lt;/html>\n
+" 
+  />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    
+   >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<TextView 
+    android:id="@+id/bsb1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+          
+            android:textColor="#008b00"
+    
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="Bootstarp Tooltip\n"
+        />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView 
+    android:id="@+id/bsb2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"   
+ android:textColor="#00008b"      
+android:text="> The Tooltip plugin is small pop-up box that appears when the user moves the mouse pointer over an element.\n\n
+"
+
+    />
+
+<TextView
+    android:id="@+id/bsb4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+>code:\n
+"
+    android:textStyle="" />
+<!-- android:background="
+#fff0f5"
+#ffefdb 
+#fff5ee
+#f0f0f0-->
+<TextView 
+ android:background="#fff5ee"
+ android:padding="10dp"
+    android:id="@+id/bsb3"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+     
+        android:text="
+     
+&lt; div class= &quot; container&quot;>\n\n
+   &lt;h3>Tooltip example&lt;/h3>\n\n
+  
+  &lt;p>The data-placement attribute specifies the tooltip position.&lt;/p>\n\n
+  &lt;ul class=&quot;list-inline&quot;>\n\n
+    &lt;li>&lt;a href=&quot;#&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;top&quot; title=&quot;Hooray!&quot;>Top&lt;/a>&lt;/li>\n\n
+    &lt;li>&lt;a href=&quot;#&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;bottom&quot; title=&quot;Hooray!&quot;>Bottom&lt;/a>&lt;/li>\n\n
+    &lt;li>&lt;a href=&quot;#&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;left&quot; title=&quot;Hooray!&quot;>Left&lt;/a>&lt;/li>\n\n
+    &lt;li>&lt;a href=&quot;#&quot; data-toggle=&quot;tooltip&quot; data-placement=&quot;right&quot; title=&quot;Hooray!&quot;>Right&lt;/a>&lt;/li>\n\n
+  &lt;/ul>\n\n
+&lt;/div>\n\n
+&lt;/div>\n\n
+&lt;script>\n\n
+$(document).ready(function(){\n\n
+    $('[data-toggle=&quot;tooltip&quot;]').tooltip();   \n\n
+});\n\n
+&lt;/script>\n\n
+\n\n"
+   />
+
+<TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:paddingTop="5dp"
+    android:src="@drawable/bstooltip" />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+        android:paddingTop="5dp"
+    android:src="@drawable/bstooltiptop" />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+        android:paddingTop="5dp"
+    android:src="@drawable/bstooltipbottom" />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+        android:paddingTop="5dp"
+    android:src="@drawable/bstooltipleft" />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+        android:paddingTop="5dp"
+    android:src="@drawable/bstooltipright" />
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

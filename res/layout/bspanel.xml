@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    
+   >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<TextView 
+    android:id="@+id/bsb1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+          
+            android:textColor="#008b00"
+    
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="Bootstarp Panels\n"
+        />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+<TextView
+    android:id="@+id/bsb6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text=">Basic panel:"
+ />
+
+<TextView 
+ 
+    android:id="@+id/bsb2"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text=">A panel in bootstrap is a bordered box with some padding around its content.\n
+>Panels are created with the .panel class, and content inside the panel has a .panel-body class.\n\n"
+
+    />
+
+<TextView
+    android:id="@+id/bsb4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+>code:\n
+"
+    android:textStyle="" />
+<!-- android:background="
+#fff0f5"
+#ffefdb 
+#fff5ee
+#f0f0f0-->
+<TextView 
+ android:background="#fff5ee"
+ android:padding="10dp"
+    android:id="@+id/bsb3"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+     
+        android:text="
+     
+&lt; div class= &quot; container&quot;>\n\n
+  &lt;h2>Basic Panel Example&lt;/h2>\n\n
+  &lt;div class= &quot; panel panel-default &quot;>\n\n
+   &lt;div class=&quot; panel-body &quot;>Write content here&lt;/div>\n\n
+  &lt;/div>\n
+&lt;/div>\n\n"
+   />
+
+<TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/basicpanel" />
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+   <TextView
+    android:id="@+id/bsb6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text="\n\n>Panel with header:"
+ />
+
+<TextView 
+ 
+    android:id="@+id/bsb7"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text=">The .panel-heading class adds a heading to the panel.\n
+"
+
+    />
+<TextView
+    android:id="@+id/bsb8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+> code:\n
+"
+    android:textStyle="" />
+    
+    <TextView 
+ 
+    android:id="@+id/bsb9"
+android:background="#fff5ee"
+ android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+  
+        android:text="
+      P
+&lt; div class= &quot; container &quot;>\n\n
+  &lt;div class= &quot; panel panel-primary &quot;>\n\n
+   &lt;div class= &quot; panel-heading &quot;>panel heading &lt;/div>\n\n
+   &lt;div class=&quot; panel-body &quot;>Write content here&lt;/div>\n\n
+  &lt;/div>\n
+&lt;/div>\n\n"
+
+
+   />
+    <TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/primarypanel" />  
+    
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+   <TextView
+    android:id="@+id/bsp6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text="\n\n>Panel with both header and footer:"
+ />
+
+<TextView 
+ 
+    android:id="@+id/bsb7"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text=">The .panel-footer class adds a footer to the panel.\n
+"
+
+    />
+<TextView
+    android:id="@+id/bsb8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+> code:\n
+"
+    android:textStyle="" />
+    
+    <TextView 
+ 
+    android:id="@+id/bsb9"
+android:background="#fff5ee"
+ android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+  
+        android:text="
+      
+&lt; div class= &quot; container &quot;>\n\n
+  &lt;div class= &quot; panel panel-primary &quot;>\n\n
+   &lt;div class= &quot; panel-heading &quot;>panel heading &lt;/div>\n\n
+   &lt;div class=&quot; panel-body &quot;>Write content here&lt;/div>\n\n
+    &lt;div class= &quot; panel-footer &quot;>panel footer &lt;/div>\n\n
+  &lt;/div>\n
+&lt;/div>\n\n"
+
+
+   />
+    <TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/panelhf" />  
+    
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    
+   >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<TextView 
+    android:id="@+id/bsb1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+          
+            android:textColor="#008b00"
+    
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="Bootstrap Dropdowns\n"
+        />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+<TextView
+    android:id="@+id/bsb6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text=">Basic Dropdown:"
+ />
+
+<TextView 
+ 
+    android:id="@+id/bsb2"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text="> A dropdown menu is a toggleable menu that allows the user to choose one value from a predefined list.\n\n
+"
+
+    />
+<TextView
+    android:id="@+id/bsb8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="example:"
+    android:textStyle="" />
+
+<TextView 
+ 
+    android:id="@+id/bsb3"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+    android:background="#fff5ee"
+ android:padding="10dp"
+        android:text="&lt; div class=&quot;container&quot;>\n \n
+   &lt;div class=&quot;dropdown&quot;>\n \n
+     &lt;button class=&quot;btn btn-primary dropdown-toggle&quot; type=&quot;button&quot; data-toggle = &quot; dropdown &quot; > Dropdown Example\n \n
+      &lt;span class=&quot;caret&quot;>  &lt;/span>  &lt;/button>\n \n
+     &lt;ul class=&quot;dropdown-menu&quot;>\n \n
+        &lt;li>&lt;a href=&quot;#&quot;>HTML  &lt;/a>  &lt;/li>\n \n
+        &lt;li>&lt;a href=&quot;#&quot;>CSS  &lt;/a>  &lt;/li>\n \n
+       &lt;li>&lt;a href=&quot;#&quot;>JavaScript  &lt;/a>  &lt;/li>\n \n
+     &lt;/ul>\n 
+    &lt;/div>\n
+  &lt;/div>\n
+
+
+        
+     
+\n \n
+
+"/>
+<TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/dropdown1" />
+<TextView 
+ 
+    android:id="@+id/bsb7"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text="> On clicking the dropbox:\n"
+
+    />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/dropdown2" />
+
+
+</LinearLayout>
+
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+<TextView
+    android:id="@+id/bsb6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text="\n\n>Dropup:"
+ />
+
+<TextView 
+ 
+    android:id="@+id/bsb2"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text="> If you want the dropdown menu to expand upwards instead of downwards, change the &lt;div> element with class=&quot; dropdown &quot; to &quot; dropup &quot;.\n\n
+"
+
+    />
+<TextView
+    android:id="@+id/bsb8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="example:"
+    android:textStyle="" />
+
+<TextView 
+ 
+    android:id="@+id/bsb3"
+android:background="#fff5ee"
+ android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+      
+        android:text="&lt; div class=&quot;container&quot;>\n \n
+   &lt;div class=&quot;dropup&quot;>\n \n
+     &lt;button class=&quot;btn btn-default dropdown-toggle&quot; type=&quot;button&quot; data-toggle = &quot; dropdown &quot; > Dropup Example\n \n
+      &lt;span class=&quot;caret&quot;>  &lt;/span>  &lt;/button>\n \n
+     &lt;ul class=&quot;dropdown-menu&quot;>\n \n
+        &lt;li>&lt;a href=&quot;#&quot;>Home  &lt;/a>  &lt;/li>\n \n
+        &lt;li class=&quot;divider&quot;> &lt;/li>
+      &lt;li> &lt;a href=&quot;#&quot;>About Us &lt;/a> &lt;/li>
+     &lt;/ul>\n 
+    &lt;/div>\n
+  &lt;/div>\n
+
+\n \n
+
+"/>
+<TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/dropup1" />
+<TextView 
+ 
+    android:id="@+id/bsb7"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text="> On clicking the dropbox:\n"
+
+    />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/dropup2" />
+
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

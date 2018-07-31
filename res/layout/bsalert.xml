@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    
+   >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:padding="5dp">
+    
+<TextView 
+    android:id="@+id/bsb1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+          
+            android:textColor="#008b00"
+    
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="Bootstrap Alert\n"
+        />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+<TextView 
+ 
+    android:id="@+id/bsb2"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"    
+
+    android:text=">Bootstrap having predefined alert messages:\n"
+	/>
+  <!--   android:textColor="#00008b"   -->   
+
+
+<TextView
+    android:id="@+id/bsb4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+>code:\n
+"
+    android:textStyle="" />
+
+<TextView 
+ android:background="#fff5ee"
+ android:padding="10dp"
+    android:id="@+id/bsb3"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+     
+        android:text="
+     
+&lt;div class= &quot;container&quot;>\n
+  &lt;h4>Success&lt;/h4>\n
+  &lt;div class=&quot;alert alert-success&quot;>\n
+  &lt;strong>Success!&lt;/strong>This can be use for a successful or positive action.\n
+  &lt;/div>\n
+  &lt;/div>\n"
+   />
+
+<TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+     android:padding="10dp"
+    android:src="@drawable/bsalert1" />
+
+<TextView
+    android:id="@+id/bsb4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+>code:\n
+"
+    android:textStyle="" />
+
+<TextView 
+ android:background="#fff5ee"
+ android:padding="10dp"
+    android:id="@+id/bsb3"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+     
+        android:text="
+     
+&lt;div class= &quot;container&quot;>\n
+  &lt;h4>Info!&lt;/h4>\n
+  &lt;div class=&quot;alert alert-info&quot;>\n
+  &lt;strong>Info!!&lt;/strong>This can be use for a information  or any other action.\n
+  &lt;/div>\n
+  &lt;/div>\n"
+   />
+
+<TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+     android:padding="10dp"
+    android:src="@drawable/bsalert2" />
+
+<TextView
+    android:id="@+id/bsb4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+>code:\n
+"
+    android:textStyle="" />
+
+<TextView 
+ android:background="#fff5ee"
+ android:padding="10dp"
+    android:id="@+id/bsb3"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+     
+        android:text="
+     
+&lt;div class= &quot;container&quot;>\n
+  &lt;h4>warning!&lt;/h4>\n
+  &lt;div class=&quot;alert alert-warning&quot;>\n
+  &lt;strong>warning!&lt;/strong> This can be use for  Warning or to gain attention.\n
+  &lt;/div>\n
+  &lt;/div>\n"
+   />
+
+<TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+     android:padding="10dp"
+    android:src="@drawable/bsalert3" />
+
+
+<TextView
+    android:id="@+id/bsb4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+>code:\n
+"
+    android:textStyle="" />
+
+<TextView 
+ android:background="#fff5ee"
+ android:padding="10dp"
+    android:id="@+id/bsb3"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+     
+        android:text="
+     
+&lt;div class= &quot;container&quot;>\n
+  &lt;h4>Danger!!!&lt;/h4>\n
+  &lt;div class=&quot;alert alert-danger&quot;>\n
+  &lt;strong>danger!&lt;/strong>This can be use to show the danger sign or for negative action.\n
+  &lt;/div>\n
+  &lt;/div>\n"
+   />
+
+<TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+     android:padding="10dp"
+    android:src="@drawable/bsalert4" />
+
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

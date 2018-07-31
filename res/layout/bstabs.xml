@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    
+   >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<TextView 
+    android:id="@+id/bsb1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+          
+            android:textColor="#008b00"
+    
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="Bootstrap Tabs\n"
+        />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+<TextView 
+ 
+    android:id="@+id/bsb2"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+     android:padding="10dp"
+ android:textColor="#00008b"
+         android:text=">To make the tabs toggleable, add the data-toggle=tab attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.\n"
+
+    />
+ 
+
+
+<TextView
+    android:id="@+id/bsb4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+>code:\n
+"
+    android:textStyle="" />
+
+<TextView 
+ android:background="#fff5ee"
+ android:padding="10dp"
+    android:id="@+id/bsb3"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+     
+        android:text="
+     
+&lt; div class= &quot;container&quot;>\n\n
+  &lt; h2>Dynamic Tabs&lt;/h2>\n\n
+ 
+  &lt;ul class=&quot;nav nav-tabs&quot;>
+    &lt;li class=&quot;active&quot;>&lt;a data-toggle=&quot;tab&quot; href=&quot;#home&quot;>Home&lt;/a>&lt;/li>\n\n
+    &lt;li>&lt;a data-toggle=&quot;tab&quot; href=&quot;#menu1&quot;>Menu 1&lt;/a>&lt;/li>\n\n
+    &lt;li>&lt;a data-toggle=&quot;tab&quot; href=&quot;#menu2&quot;>Menu 2&lt;/a>&lt;/li>\n\n
+    &lt;li>&lt;a data-toggle=&quot;tab&quot; href=&quot;#menu3&quot;>Menu 3&lt;/a>&lt;/li>\n\n
+  &lt;/ul>
+\n\n
+  &lt;div class=&quot;tab-content&quot;>\n\n
+    &lt;div id=&quot;home&quot; class=&quot;tab-pane fade in active&quot;>\n\n
+      &lt;h3>HOME&lt;/h3>\n\n
+      &lt;p>It is your home page&lt;/p>\n\n
+    &lt;/div>\n\n
+    &lt;div id=&quot;menu1&quot; class=&quot;tab-pane fade&quot;>\n\n
+      &lt;h3>Menu 1&lt;/h3>\n\n
+      &lt;p>It is your menu 1 page&lt;/p>\n\n
+    &lt;/div>\n\n
+    &lt;div id=&quot;menu2&quot; class=&quot;tab-pane fade&quot;>\n\n
+      &lt;h3>Menu 2&lt;/h3>\n\n
+      &lt;p>It is your menu 2 page&lt;/p>\n\n
+    &lt;/div>\n\n
+    &lt;div id=&quot;menu3&quot; class=&quot;tab-pane fade&quot;>\n\n
+      &lt;h3>Menu 3&lt;/h3>\n\n
+      &lt;p>It is your menu 3 page&lt;/p>\n\n
+    &lt;/div>\n\n
+  &lt;/div>\n
+&lt;/div>\n\n"
+   />
+
+<TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+
+<TextView 
+  android:id="@+id/bsb7"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+ android:textColor="#00008b"
+        android:text="\n> On clicking the home:"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/tab1" />
+
+<TextView 
+  android:id="@+id/bsb7"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+ android:textColor="#00008b"
+        android:text="\n> On clicking the menu1:"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/tab2" />
+
+
+<TextView 
+  android:id="@+id/bsb7"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+ android:textColor="#00008b"
+        android:text="\n> On clicking the menu2:"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/tab3" />
+
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>

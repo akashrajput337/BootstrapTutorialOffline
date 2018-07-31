@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    
+   >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<TextView 
+    android:id="@+id/bsb1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+          
+            android:textColor="#008b00"
+    
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="Bootstarp Buttons\n"
+        />
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+<TextView
+    android:id="@+id/bsb6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text=">Button Styles:"
+ />
+<!--  
+<Button 
+        android:id="@+id/buttonrunclick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Run"
+        android:layout_gravity="right"
+      
+       android:background="@drawable/startbutton"
+        
+        />
+-->
+<TextView 
+ 
+    android:id="@+id/bsb2"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text="> To achieve the button styles , Bootstrap has the following classes:\n\n
+•.btn-default\n
+•.btn-primary\n
+•.btn-success\n
+•.btn-info\n
+•.btn-warning\n
+•.btn-danger\n
+•.btn-link\n\n
+
+"
+
+    />
+
+<TextView
+    android:id="@+id/bsb4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+> Below given the code for the different button styles:\n
+"
+    android:textStyle="" />
+<!-- android:background="
+#fff0f5"
+#ffefdb 
+#fff5ee
+#f0f0f0-->
+<TextView 
+ android:background="#fff5ee"
+ android:padding="10dp"
+    android:id="@+id/bsb3"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+     
+        android:text="
+     
+&lt; button type = &quot; button &quot; class =  &quot; btn btn-default  &quot; > Default Button &lt;/button &gt;  \n \n
+
+&lt;button type = &quot; button &quot;  class = &quot; btn btn-primary &quot; &gt;Primary &lt;/button &gt;  \n \n
+
+&lt;button type = &quot; button &quot;  class = &quot;  btn btn-success &quot; &gt; Success &lt;/button &gt;  \n \n
+
+&lt;button type = &quot; button &quot;  class = &quot; btn btn-info &quot; &gt; Info &lt;/button &gt;  \n \n
+
+&lt;button type = &quot; button &quot;  class =  &quot; btn btn-warning &quot; &gt; Warning &lt;/button &gt;  \n \n
+
+&lt;button type = &quot; button &quot; class =  &quot; btn btn-danger &quot; &gt; Danger &lt;/button &gt;  \n \n
+
+&lt;button type = &quot; button &quot;  class =  &quot; btn btn-link &quot; &gt; Link &lt;/button &gt; \n"
+
+   />
+
+<TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/bsbutton" />
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+   <TextView
+    android:id="@+id/bsb6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text="\n\n>Button Sizes:"
+ />
+
+<TextView 
+ 
+    android:id="@+id/bsb7"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text="> The classes that define the different sizes are:\n
+•.btn-lg\n
+•.btn-md\n
+•.btn-sm\n
+•.btn-xs\n
+"
+
+    />
+<TextView
+    android:id="@+id/bsb8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+> Below given the code for the different button sizes:\n
+"
+    android:textStyle="" />
+    
+    <TextView 
+ 
+    android:id="@+id/bsb9"
+android:background="#fff5ee"
+ android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+  
+        android:text="
+       
+&lt; button type = &quot; button &quot; class =  &quot; btn btn-danger  btn-lg &quot; >Large Button &lt;/button &gt;  \n \n
+&lt;button type = &quot; button &quot;  class = &quot; btn btn-danger  btn-md &quot; &gt; Medium Button &lt;/button &gt;  \n \n
+
+&lt;button type = &quot; button &quot;  class = &quot;  btn btn-danger  btn-sm &quot; &gt; Small Button &lt;/button &gt;  \n \n
+
+&lt;button type = &quot; button &quot;  class = &quot; btn btn-danger  btn-xm &quot; &gt; Extra Small Button &lt;/button &gt;  
+"
+
+
+   />
+    <TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/sizes" />  
+   
+    
+</LinearLayout>
+ 
+</LinearLayout>
+</ScrollView>

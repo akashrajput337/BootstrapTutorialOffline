@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    
+   >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<TextView 
+    android:id="@+id/bsb1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+          
+            android:textColor="#008b00"
+    
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="Bootstarp glyphicon\n"
+        />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+
+
+<TextView 
+ 
+    android:id="@+id/bsb2"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+   android:textAppearance="?android:attr/textAppearanceSmall"  
+ android:textColor="#00008b"
+     android:padding="4dp" 
+      
+        android:text="> Bootstrap provides 260 glyphicons from the Glyphicons Halflings set.\n\n
+
+Glyphicons can be used in text, buttons, toolbars, navigation, forms, etc.\n
+
+"
+
+    />
+
+<TextView
+    android:id="@+id/bsb4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+>code:\n"
+    android:textStyle="" />
+
+<TextView 
+ android:background="#fff5ee"
+ android:padding="10dp"
+    android:id="@+id/bsb3"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+     
+        android:text="
+     
+&lt;div class=&quot; container &quot; >\n\n
+  
+ &lt;p>Envelope icon: &lt;span class=&quot; glyphicon glyphicon-envelope&quot; >&lt;/span>&lt;/p>    \n\n
+  &lt;p>Envelope icon as a link:\n\n
+    &lt;a href=&quot; #&quot; >&lt; span class=&quot; glyphicon glyphicon-envelope &quot; > &lt;/span> &lt;/a>\n\n
+  &lt;/p>\n\n
+   &lt;br>\n\n
+  &lt;p>Search icon: &lt;span class=&quot; glyphicon glyphicon-search&quot; >&lt;/span>&lt;/p>\n\n
+
+  &lt;p>Search icon on a  button:\n\n
+    &lt;button type=&quot; button&quot;  class=&quot; btn btn-primary&quot; >\n\n
+      &lt;span class=&quot; glyphicon glyphicon-search&quot; >&lt;/span> Search\n\n
+    &lt;/button>\n\n
+  &lt;/p>\n
+  &lt;br>\n
+  
+  &lt;p>Print icon: &lt;span class=&quot; glyphicon glyphicon-print&quot; >&lt;/span>&lt;/p> \n\n
+  
+ &lt;p>Print icon on a styled link button:\n\n
+    &lt;a href=&quot; #&quot;  class=&quot; btn btn-warning &quot; >\n\n
+      &lt;span class=&quot; glyphicon glyphicon-print&quot; >&lt;/span> Print \n\n
+    &lt;/a>\n
+ &lt;/p> \n
+&lt;/div>\n\n
+"
+   />
+
+<TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/glypicon1" />
+</LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

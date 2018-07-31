@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    
+   >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<TextView 
+    android:id="@+id/bsb1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+          
+            android:textColor="#008b00"
+    
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="Bootstarp Images\n"
+        />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+<TextView
+    android:id="@+id/bsb6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text=">Rounded Corners:"
+ />
+
+
+<TextView 
+ 
+    android:id="@+id/bsb2"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text=">The .img-rounded class adds rounded corners to an image:.\n
+"
+
+    />
+
+<TextView
+    android:id="@+id/bsb4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+>code:\n
+"
+    android:textStyle="" />
+<!-- android:background="
+#fff0f5"
+#ffefdb 
+#fff5ee
+#f0f0f0-->
+<TextView 
+ android:background="#fff5ee"
+ android:padding="10dp"
+    android:id="@+id/bsb3"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+     
+        android:text="
+     
+&lt; div class= &quot; container&quot;>\n\n
+   &lt;h2>Rounded Corners&lt;/h2>\n\n
+  
+  &lt;img src=&quot;tm.jpg&quot; class=&quot;img-rounded&quot; alt=&quot;Cinque Terre&quot; width=&quot;304&quot; height=&quot;236&quot;> 
+  
+&lt;/div>\n\n"
+   />
+
+<TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/bsimagerc" />
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+   <TextView
+    android:id="@+id/bsb6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text="\n\n>Circle:"
+ />
+
+<TextView 
+ 
+    android:id="@+id/bsb7"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text=">The .img-circle class shapes the image to a circle."
+
+    />
+<TextView
+    android:id="@+id/bsb8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+> code:\n
+"
+    android:textStyle="" />
+    
+    <TextView 
+ 
+    android:id="@+id/bsb9"
+android:background="#fff5ee"
+ android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+  
+        android:text="
+    
+&lt; div class= &quot; container&quot;>\n\n
+   &lt;h2>Circle&lt;/h2>\n\n
+  
+  &lt;img src=&quot;hb.jpg&quot; class=&quot;img-circle&quot; alt=&quot;Cinque Terre&quot; width=&quot;304&quot; height=&quot;236&quot;> 
+  
+&lt;/div>\n\n"
+   />
+    <TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/bsimageshb" />  
+    
+</LinearLayout>
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+   <TextView
+    android:id="@+id/bsp6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text="\n\n>Image Gallery"
+ />
+
+<TextView 
+ 
+    android:id="@+id/bsb7"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text=">The .thumbnail class can be used to display an image gallery.\n\n
+>The .caption class adds proper padding and a dark grey color to text inside thumbnails.\n\n
+"
+
+    />
+<TextView
+    android:id="@+id/bsb8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+> code:\n
+"
+    android:textStyle="" />
+    
+    <TextView 
+ 
+    android:id="@+id/bsb9"
+android:background="#fff5ee"
+ android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+  
+        android:text="
+      &lt; div class= &quot; container&quot;>\n\n
+  &lt; h2>Image Gallery&lt; /h2>\n\n
+  &lt;div class=&quot;row&quot;>\n\n
+    &lt;div class=&quot;col-md-4&quot;>\n\n
+      &lt;div class=&quot;thumbnail&quot;>\n\n
+        &lt;a href=&quot;/w3images/lights.jpg&quot; target=&quot;_blank&quot;>\n\n
+          &lt;img src=&quot;tm.jpg&quot; alt=&quot;Lights&quot; style=&quot;width:100%&quot;>\n\n
+          &lt;div class=&quot;caption&quot;>\n\n
+            &lt;p>Taj Mahal, one of the most beautiful monuments, is one of the wonders of the world.&lt;/p>\n\n
+          &lt;/div>\n\n
+        &lt;/a>\n\n
+      &lt;/div>\n\n
+    &lt;/div>\n\n
+    &lt;div class=&quot;col-md-4&quot;>\n\n
+      &lt;div class=&quot;thumbnail&quot;>\n\n
+        &lt;a href=&quot;/w3images/nature.jpg&quot; target=&quot;_blank&quot;>\n\n
+          &lt;img src=&quot;goi.jpg&quot; alt=&quot;Nature&quot; style=&quot;width:100%&quot;>\n\n
+          &lt;div class=&quot;caption&quot;>\n\n
+            &lt;p>The Gateway of India is an arch monument built during the 20th century in Bombay, India. The monument was erected to commemorate the landing of King.&lt;/p>\n\n
+          &lt;/div>\n\n
+        &lt;/a>\n\n
+      &lt;/div>\n\n
+    &lt;/div>\n\n
+    &lt;div class=&quot;col-md-4&quot;>\n\n
+      &lt;div class=&quot;thumbnail&quot;>\n\n
+        &lt;a href=&quot;/w3images/fjords.jpg&quot; target=&quot;_blank&quot;>\n\n
+          &lt;img src=&quot;hb.jpg&quot; alt=&quot;Fjords&quot; style=&quot;width:100%&quot;>\n\n
+          &lt;div class=&quot;caption&quot;>\n\n
+            &lt;p> 'Hindi Bhawan' has been created to fulfill the dream of all the Hindi lovers whose heart beats for Hindi.&lt;/p>\n\n
+          &lt;/div>\n\n
+        &lt;/a>\n\n
+      &lt;/div>\n\n
+    &lt;/div>\n\n
+  &lt;/div>\n\n
+&lt;/div>\n\n"
+   />
+    <TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/bsimagegallery" />  
+    
+</LinearLayout>
+
+</LinearLayout>
+</ScrollView>

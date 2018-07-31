@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    
+   >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+     android:padding="5dp">
+    
+<TextView 
+    android:id="@+id/bsb1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+          
+            android:textColor="#008b00"
+    
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="Bootstrap Modal\n"
+        />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+<TextView
+    android:id="@+id/bsb6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text=">Basic progress bar:"
+ />
+
+<TextView 
+ 
+    android:id="@+id/bsb2"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text=">The Modal plugin is a dialog box/popup window that is displayed on the current page.\n\n
+        Note:  Plugins can be included individually (using Bootstrap's individual &quot;modal.js&quot; file), or all at once (using &quot;bootstrap.js&quot; or &quot;bootstrap.min.js&quot;).
+\n"
+
+    />
+
+<TextView
+    android:id="@+id/bsb4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+>code:\n
+"
+    android:textStyle="" />
+
+<TextView 
+ android:background="#fff5ee"
+ android:padding="10dp"
+    android:id="@+id/bsb3"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+     
+        android:text="
+     
+&lt; div class= &quot;container&quot;>\n\n
+  &lt; h3>Modal example &lt;/h3>\n\n
+  
+  &lt;!-- Trigger the modal with a button -->\n\n
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-success btn-md&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;>Open Modal&lt;/button>\n\n
+
+  &lt;!-- Modal -->\n\n
+  &lt;div class=&quot;modal fade&quot; id=&quot;myModal&quot; role=&quot;dialog&quot;>\n\n
+    &lt;div class=&quot;modal-dialog&quot;>\n\n
+    
+     &lt;!-- Modal content-->\n\n
+      &lt;div class=&quot;modal-content&quot;>\n\n
+        &lt;div class=&quot;modal-header&quot;>\n\n
+          &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot;>&lt;/button>\n\n
+         &lt;h4 class=&quot;modal-title&quot;>Modal Header&lt;/h4>\n\n
+        &lt;/div>\n\n
+        &lt;div class=&quot;modal-body&quot;>\n\n
+          &lt;p>Some text&lt;/p>\n\n
+        &lt;/div>\n\n
+        &lt;div class=&quot;modal-footer&quot;>\n\n
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-dismiss=&quot;modal&quot;>Close&lt;/button>\n\n
+        &lt;/div>\n
+      &lt;/div>\n
+      
+    &lt;/div>\n
+  &lt;/div>\n
+&lt;/div>\n\n"
+   />
+
+<TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/modal11" />
+<TextView 
+ 
+    android:id="@+id/bsb7"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text="> On clicking the button:\n"
+
+    />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/modal12" />
+
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+   <TextView
+    android:id="@+id/bsb6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text="\n\n>Modal Size"
+ />
+
+<TextView 
+ 
+    android:id="@+id/bsb7"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text=">Change the size of the modal by adding the .modal-sm class for small modals or  .modal-lg class for large modals.\n
+
+Add the size class to the &lt;div> element with class .modal-dialog
+.\n
+"
+
+    />
+<TextView
+    android:id="@+id/bsb8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="
+> code:\n
+"
+    android:textStyle="" />
+    
+    <TextView 
+ 
+    android:id="@+id/bsb9"
+android:background="#fff5ee"
+ android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+  
+        android:text="
+         
+&lt; div class= &quot;container&quot;>\n\n
+  &lt; h3>Modal size example &lt;/h3>\n\n
+  
+  &lt;!-- Trigger the modal with a button -->\n\n
+  &lt;button type=&quot;button&quot; class=&quot;btn btn-info btn-md&quot; data-toggle=&quot;modal&quot; data-target=&quot;#myModal&quot;>Open Modal&lt;/button>\n\n
+
+  &lt;!-- Modal -->\n\n
+  &lt;div class=&quot;modal fade&quot; id=&quot;myModal&quot; role=&quot;dialog&quot;>\n\n
+    &lt;div class=&quot;modal-dialog modal-sm&quot;>\n\n
+    
+     &lt;!-- Modal content-->\n\n
+      &lt;div class=&quot;modal-content&quot;>\n\n
+        &lt;div class=&quot;modal-header&quot;>\n\n
+          &lt;button type=&quot;button&quot; class=&quot;close&quot; data-dismiss=&quot;modal&quot;>&lt;/button>\n\n
+         &lt;h4 class=&quot;modal-title&quot;>Modal Header&lt;/h4>\n\n
+        &lt;/div>\n\n
+        &lt;div class=&quot;modal-body&quot;>\n\n
+          &lt;p>Small size modal&lt;/p>\n\n
+        &lt;/div>\n\n
+        &lt;div class=&quot;modal-footer&quot;>\n\n
+          &lt;button type=&quot;button&quot; class=&quot;btn btn-default&quot; data-dismiss=&quot;modal&quot;>Close&lt;/button>\n\n
+        &lt;/div>\n
+      &lt;/div>\n
+      
+    &lt;/div>\n
+  &lt;/div>\n
+&lt;/div>\n\n"
+
+
+   />
+    <TextView
+    android:id="@+id/bsb5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/modal21" />  
+    
+  <TextView 
+ 
+    android:id="@+id/bsb7"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text="> On clicking the button:\n"
+
+    />
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/modal22" />
+    
+</LinearLayout>
+
+
+
+</LinearLayout>
+</ScrollView>

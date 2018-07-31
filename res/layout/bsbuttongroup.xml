@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+      xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   
+    
+   >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+<TextView 
+    android:id="@+id/bsbg1"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="bold"
+          
+            android:textColor="#008b00"
+    
+        android:textAppearance="?android:attr/textAppearanceLarge"
+       android:text="Bootstarp Buttons Group\n"
+        />
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    
+
+<TextView
+    android:id="@+id/bsbg6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text=">Button Groups:-"
+ />
+
+<TextView 
+ 
+    android:id="@+id/bsbg2"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text="     Bootstrap allows you to group a series of buttons together (on a single line) in a button group:\n\n"
+
+    />
+
+
+
+<TextView 
+ 
+    android:id="@+id/bsbg3"
+android:background="#fff5ee"
+ android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+      
+        android:text="
+&lt;div class=&quot; btn-group &quot;>  
+&lt; button type = &quot; button &quot; class =  &quot; btn btn-primary  &quot; >Left &lt;/button &gt;  \n \n
+
+&lt;button type = &quot; button &quot;  class = &quot; btn btn-primary &quot; &gt;Middle &lt;/button &gt;  \n \n
+
+&lt;button type = &quot; button &quot;  class = &quot;  btn btn-primary &quot; &gt; Right &lt;/button &gt;  \n \n
+
+&lt;/div>\n\n"
+   />
+<TextView
+    android:id="@+id/bsbg5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/bsgroup1" />
+</LinearLayout>
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    >
+
+   <TextView
+    android:id="@+id/bsbg6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+ android:textStyle="bold"
+    android:text="\n\n>Vertical Button Group:-"
+ />
+
+<TextView 
+ 
+    android:id="@+id/bsbg7"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="italic"
+    
+ android:textColor="#00008b"
+      
+      
+        android:text=" Bootstrap also supports vertical button group:"/>
+<TextView
+    android:id="@+id/bsbg8"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="             Use the class .btn-group-vertical to create a vertical button group:\n
+"
+    android:textStyle="" />
+    
+    <TextView 
+ 
+    android:id="@+id/bsbg9"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textStyle="normal"
+     android:textColor="#8b1c62"
+ android:textAppearance="?android:attr/textAppearanceSmall"
+ android:background="#fff5ee"
+ android:padding="10dp"
+        android:text="
+ &lt;  div class= &quot; btn-group-vertical &quot;>    
+&lt; button type = &quot; button &quot; class =  &quot; btn btn-primary  &quot; >Button 1&lt;/button &gt;  \n \n
+&lt;button type = &quot; button &quot;  class = &quot; btn btn-warning  &quot; &gt; Button 2&lt;/button &gt;  \n \n
+
+&lt;button type = &quot; button &quot;  class = &quot;  btn btn-danger  &quot; &gt;Button 3&lt;/button &gt;  \n \n
+
+
+
+&lt; /div>\n\n"
+
+
+   />
+    <TextView
+    android:id="@+id/bsbg5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+   android:textAppearance="?android:attr/textAppearanceSmall"
+    android:text="Output:
+"
+ />
+  <ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:adjustViewBounds="true"
+    android:src="@drawable/bsgroup2" />  
+    
+</LinearLayout>
+</LinearLayout>
+</ScrollView>

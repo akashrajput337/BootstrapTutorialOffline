@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rajputakash.bootstraptutorial"
+    android:versionCode="3"
+    android:versionName="3" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconnew"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+    
+         <activity
+            android:name="com.rajputakash.bootstraptutorial.Splashscreen"
+            android:label="@string/app_name" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+                    </activity>  
+                    
+        <activity
+            android:name="com.rajputakash.bootstraptutorial.Main"
+            android:label="@string/app_name" >
+           
+        </activity>
+         
+        
+        <activity
+            android:name="com.rajputakash.bootstraptutorial.List1"
+            android:label="@string/app_name" >
+          
+        </activity>
+        <activity
+            android:name="com.rajputakash.bootstraptutorial.Bshome"
+            android:label="@string/app_name" >
+          
+        </activity>
+         <activity
+            android:name="com.rajputakash.bootstraptutorial.Bsbutton"
+            android:label="@string/app_name" >
+          
+        </activity>
+        <activity
+            android:name="com.rajputakash.bootstraptutorial.Bsbuttongroup"
+            android:label="@string/app_name" >
+          
+        </activity>
+        
+        <activity
+            android:name="com.rajputakash.bootstraptutorial.Bsdropdown"
+            android:label="@string/app_name" >
+          </activity>
+        
+        <activity
+            android:name="com.rajputakash.bootstraptutorial.Bsimages"
+            android:label="@string/app_name" >
+          </activity>
+        
+        
+         <activity
+            android:name="com.rajputakash.bootstraptutorial.Bspanel"
+            android:label="@string/app_name" >
+          </activity> 
+  
+       <activity
+            android:name="com.rajputakash.bootstraptutorial.Bsform"
+            android:label="@string/app_name" >
+          </activity> 
+          
+       <activity
+            android:name="com.rajputakash.bootstraptutorial.Bsglyphicon"
+            android:label="@string/app_name" >
+          </activity> 
+          
+       <activity
+            android:name="com.rajputakash.bootstraptutorial.Bstooltip"
+            android:label="@string/app_name" >
+          </activity> 
+             
+       <activity
+            android:name="com.rajputakash.bootstraptutorial.Bsprogressbar"
+            android:label="@string/app_name" >
+          </activity> 
+          
+        <activity
+            android:name="com.rajputakash.bootstraptutorial.Bsmodal"
+            android:label="@string/app_name" >
+          </activity> 
+          
+          <activity
+            android:name="com.rajputakash.bootstraptutorial.Buttonrun"
+            android:label="@string/app_name" >
+          </activity> 
+          <activity
+            android:name="com.rajputakash.bootstraptutorial.Bscollapse"
+            android:label="@string/app_name" >
+          </activity> 
+          
+           <activity
+            android:name="com.rajputakash.bootstraptutorial.Bstabs"
+            android:label="@string/app_name" >
+          </activity> 
+           <activity
+            android:name="com.rajputakash.bootstraptutorial.Bsnavbar"
+            android:label="@string/app_name" >
+          </activity> 
+           <activity
+            android:name="com.rajputakash.bootstraptutorial.Bsalert"
+            android:label="@string/app_name" >
+          </activity> 
+           
+         </application>
+
+</manifest>
